@@ -26,5 +26,5 @@ biocViews: Infrastructure, DataRepresentation, DataImport
 Language: en-US
 Repository: Neuroconductor
 Remotes: 
-    neuroconductor/RNifti@48797c0c5ca5ea2e00a3576f584f08b9264e8daa,
-    neuroconductor/neurobase@430fc44d6f51a9a4941c86ae0edf6c4eaab6151d
+    neuroconductor/RNifti@75f217e228f4980e06f6ca5617954456c26a426a,
+    neuroconductor/neurobase@5731d1c64fe69ef47dca8ecef9bfd4ee5c8d0515
