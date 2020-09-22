@@ -28,5 +28,5 @@ Repository: Neuroconductor
 Remotes:  
     grimbough/rhdf5,
     grimbough/Rhdf5lib,
-    neuroconductor/RNifti@ff27d1e5218e731702ad42654e8bc0f6963892e9,
-    neuroconductor/neurobase@7af8cf494e298defd563b92b40af3f7be43bb94a
+    neuroconductor/RNifti@20aafa4dc498f228961992ad7d7b486e9b967ca8,
+    neuroconductor/neurobase@b5fcc694621d55cdd95f60f140f2f7757db72a1e
