@@ -1,54 +1,32 @@
 Package: NiftiArray
 Title: HDF5 Delayed Array for Nifti Objects
 Version: 0.99.6.1
-Authors@R: c(person(given = "John",
-                    family = "Muschelli",
-                    email = "muschellij2@gmail.com",
-                    role = c("aut", "cre"),
-                    comment = c(ORCID = "0000-0001-6469-1750")),
-             person(given = "Alessandra",
-                    family = "Valcarcel",
-                    role = "aut",
-                    email = "alval@pennmedicine.upenn.edu"))
+Authors@R: c(person(given = "John", family = "Muschelli", email =
+        "muschellij2@gmail.com", role = c("aut", "cre"), comment =
+        c(ORCID = "0000-0001-6469-1750")), person(given = "Alessandra",
+        family = "Valcarcel", role = "aut", email =
+        "alval@pennmedicine.upenn.edu"))
 Description: Nifti Objects as DelayedArrays backended in HDF5.
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
 VignetteBuilder: knitr
 Depends: R (>= 3.6)
-Imports: 
-    DelayedArray (>= 0.10.0),
-    HDF5Array (>= 1.13.3),
-    methods,
-    rhdf5 (>= 2.33.4),
-    RNifti,
-    S4Vectors
-Suggests:
-    spelling, 
-    covr,
-    DelayedMatrixStats,
-    dplyr,
-    forcats,
-    ggplot2,
-    gridExtra,
-    kableExtra,
-    knitr,
-    microbenchmark,
-    neurobase,
-    pbapply,
-    profmem,
-    remotes,
-    rmarkdown,
-    stringr,
-    testthat,
-    tibble,
-    tidyr
+Imports: DelayedArray (>= 0.10.0), HDF5Array (>= 1.13.3), methods,
+        rhdf5 (>= 2.33.4), RNifti, S4Vectors
+Suggests: spelling, covr, DelayedMatrixStats, dplyr, forcats, ggplot2,
+        gridExtra, kableExtra, knitr, microbenchmark, neurobase,
+        pbapply, profmem, remotes, rmarkdown, stringr, testthat,
+        tibble, tidyr
 RoxygenNote: 7.1.0
-Remotes: 
-    grimbough/rhdf5,
-    grimbough/Rhdf5lib    
 URL: https://github.com/muschellij2/NiftiArray
 BugReports: https://github.com/muschellij2/NiftiArray/issues
 Roxygen: list(markdown = TRUE)
 biocViews: Infrastructure, DataRepresentation, DataImport
 Language: en-US
+Repository: Neuroconductor
+Remotes:  
+    grimbough/rhdf5,
+    grimbough/Rhdf5lib,
+    neuroconductor/RNifti@929106d1b17d6c09c8b001b5e39d448ed9ef635f,
+    neuroconductor/neurobase@1d4b172915192d419b4defb2e56d84d7541c03cd
